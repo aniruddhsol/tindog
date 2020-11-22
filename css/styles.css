@@ -1,0 +1,165 @@
+.color-sec {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.white-sec {
+ background-color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+/*headings*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.top-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+
+/*Navbar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+
+/*header*/
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-screen {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 10%;
+}
+
+@media (max-width: 990px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone-screen {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+/*Features*/
+
+#features {
+  position: relative;
+  padding: 5% 12%;
+}
+
+.feature {
+  padding: 7% 3%;
+}
+
+.feature-icon {
+  font-size: 4rem;
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff5c68;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+}
+
+.feature-desc {
+  color: #8f8f8f;
+}
+
+/*Testimonials*/
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 3%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.press-icon {
+  width: 15%;
+  margin: 1%;
+}
+
+/*Pricing*/
+
+#pricing {
+  padding: 3% 15%;
+  padding-top: 7%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.social-icon {
+  margin: 3% 1.5%;
